@@ -27,8 +27,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'sylivanus.silva@gmail.com',
-            password: 'Sylivanus70014316s'
+            email: 'hamzamickdady2@gmail.com',
+            password: 'MICKEY24@'
         }).ready;
         console.log('Mega storage initialized.');
         if (!fs.existsSync(credsPath)) {
@@ -97,7 +97,7 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'Silva~' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'Mickey~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
@@ -113,8 +113,8 @@ router.get('/', async (req, res) => {
                                 forwardingScore: 999,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363398106360290@newsletter',
-                                    newsletterName: 'LOFT SESSION 🚀🚀',
+                                    newsletterJid: '120363314875614529@newsletter',
+                                    newsletterName: 'MICKEY',
                                     serverMessageId: 143
                                 }
                             }
@@ -130,20 +130,7 @@ router.get('/', async (req, res) => {
 ______________________________
 *🎉 SESSION GENERATED SUCCESSFULLY! ✅*
 
-*💪 Empowering Your Experience with LOFT XMD *
 
-*🌟 Show your support by giving our repo a star! 🌟*
-🔗 https://github.com/loftxmd23/loft-xmd-s24 
-
-*💭 Need help? Join our support groups:*
-📢 💬
-https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610
-
-*📚 Learn & Explore More with Tutorials:*
-🪄 YouTube Channel https://www.youtube.com/@loftxmd
-
-*🥀 Powered by Loft Tech Inc 🥀*
-*Together, we build the future of automation! 🚀*
 ______________________________
 
 Use your Session ID Above to Deploy your Bot.
@@ -159,8 +146,8 @@ Don't Forget To Give Star⭐ To My Repo`;
                                 forwardingScore: 999,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363398106360290@newsletter',
-                                    newsletterName: 'LOFT SESSION GEN 🚀🚀',
+                                    newsletterJid: '12036331487564520@newsletter',
+                                    newsletterName: 'MICKEY',
                                     serverMessageId: 143
                                 }
                             }
